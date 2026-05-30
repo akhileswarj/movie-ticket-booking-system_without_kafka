@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: booking-service
+  datasource:
+    url: jdbc:mysql://${DB_HOST_BOOKING:localhost}:3306/bookings?createDatabaseIfNotExist=true
+    username: ${DB_USERNAME_BOOKING:springstudent}
+    password: ${DB_PASSWORD_BOOKING:springstudent}
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+services:
+  payment:
+    url: http://localhost:9090/payments
