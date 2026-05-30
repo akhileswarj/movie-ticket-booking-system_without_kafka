@@ -18,6 +18,6 @@ services:
     url: http://localhost:8080
 
 razorpay:
-  key-id: rzp_test_SmYXviKVvRzDs8
-  key-secret: Sg3IER4O7MzU79dlTfyP5amM
+  key-id: your_api_test_key
+  key-secret: your_api_key_secret
   callback-url: http://localhost:8765/payments
