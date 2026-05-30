@@ -1,6 +1,6 @@
 # Movie Ticket Booking System
 
-A microservices-based movie ticket booking system built with Spring Boot,
+A Simple microservices-based movie ticket booking system built with Spring Boot,
 Spring Cloud, Eureka, and Razorpay payment integration.
 
 ## Services
