@@ -46,6 +46,39 @@ Start each service individually from your IDE or:
 mvn spring-boot:run
 ```
 
+## Running the Application with Docker
+
+1. Build the project:
+
+```bash
+mvn clean package -DskipTests
+```
+
+2. Start all services using Docker Compose:
+
+```bash
+docker compose up --build
+```
+
+Run in detached mode (optional):
+
+```bash
+docker compose up --build -d
+```
+
+3. Verify that the containers are running:
+
+```bash
+docker ps
+```
+
+4. Stopping the application:
+
+```bash
+docker compose down
+```
+
+
 ## API Usage
 
 ### Create a Booking
