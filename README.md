@@ -34,13 +34,7 @@ razorpay:
   key-secret: your_razorpay_key_secret_here
 ```
 
-### 2. Build and run with Docker
-```bash
-mvn clean package -DskipTests
-docker compose up --build
-```
-
-### 3. Run locally (without Docker)
+### 2. Run locally (without Docker)
 Start each service individually from your IDE or:
 ```bash
 mvn spring-boot:run
